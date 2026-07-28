@@ -1,5 +1,8 @@
 # Google Trends Data Cleaning with PostgreSQL
 
+<img width="1414" height="2000" alt="Data Cleaning Analysis - Google Trends image" src="https://github.com/user-attachments/assets/30522feb-c650-4812-b3f8-69cb689ad426" />
+
+
 ## Project Overview
 
 This project demonstrates a complete SQL data cleaning workflow using PostgreSQL.
