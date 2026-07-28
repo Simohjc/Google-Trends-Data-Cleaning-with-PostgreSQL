@@ -70,7 +70,8 @@ A SQL View was created using `UNION ALL` to combine every category into one data
 
 This allowed all cleaning and validation queries to run against a single view.
 
-![Combined View](Screenshot%202026-07-28%20131112.png)
+<img width="1600" height="523" alt="Screenshot 2026-07-28 131112" src="https://github.com/user-attachments/assets/395a75cc-3cce-4876-8933-3a9e26f61cf4" />
+
 
 ---
 
@@ -96,7 +97,8 @@ source_table
 )
 ```
 
-![Duplicate Check](Screenshot%202026-07-28%20135522.png)
+<img width="725" height="335" alt="Screenshot 2026-07-28 135637" src="https://github.com/user-attachments/assets/90b4a665-412d-4cbb-adc1-27f74042af36" />
+
 
 ---
 
@@ -113,7 +115,8 @@ Examples:
 - "3m" → "three m open leaderboard"
 - "72%" → "hours 72"
 
-![Standardize Data](Screenshot%202026-07-28%20135904.png)
+<img width="701" height="312" alt="Screenshot 2026-07-28 135904" src="https://github.com/user-attachments/assets/26186e4d-51e1-42c8-bc0b-7f6d37a1d097" />
+
 
 ---
 
@@ -156,7 +159,8 @@ The project converted them into PostgreSQL TIMESTAMP values using
 - REGEXP_REPLACE()
 - TO_TIMESTAMP()
 
-![Timestamp Conversion](Screenshot%202026-07-28%20135928.png)
+<img width="581" height="762" alt="Screenshot 2026-07-28 135928" src="https://github.com/user-attachments/assets/b894c833-627e-4d70-99d9-dabb45859c26" />
+
 
 ---
 
@@ -171,7 +175,8 @@ The cleaned timestamps replaced the original text-based dates.
 
 Original text columns were removed after verification.
 
-![Timestamp Columns](Screenshot%202026-07-28%20135942.png)
+<img width="1600" height="523" alt="Screenshot 2026-07-28 131112" src="https://github.com/user-attachments/assets/d6937dd9-afcd-41f7-be79-5356d28e6390" />
+
 
 ---
 
@@ -188,7 +193,8 @@ The NULL values were preserved because no valid source value existed.
 
 Rows containing NULL timestamps were excluded from the final cleaned analytical view.
 
-![Null Analysis](Screenshot%202026-07-28%20135957.png)
+<img width="957" height="323" alt="Screenshot 2026-07-28 135942" src="https://github.com/user-attachments/assets/40635362-6ce6-45e7-8349-9769b0e1a7c3" />
+
 
 ---
 
@@ -199,6 +205,9 @@ A new column named
 ```
 source_table
 ```
+
+<img width="665" height="321" alt="Screenshot 2026-07-28 135957" src="https://github.com/user-attachments/assets/d6b54e1d-d308-463f-99fb-56204fe9e875" />
+
 
 was added to identify the original category for every record after combining all datasets.
 
@@ -228,7 +237,8 @@ The final dataset contains
 
 and is ready for Exploratory Data Analysis (EDA).
 
-![Final Dataset](Screenshot%202026-07-28%20141013.png)
+<img width="1506" height="762" alt="Screenshot 2026-07-28 141013" src="https://github.com/user-attachments/assets/2d7c10b0-bfb3-4aba-924f-4809cb2d8939" />
+
 
 ---
 
