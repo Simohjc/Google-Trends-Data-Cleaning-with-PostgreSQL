@@ -1,3 +1,4 @@
+<img width="1212" height="137" alt="Screenshot 2026-07-28 124957" src="https://github.com/user-attachments/assets/6857d6fb-75b9-4d50-aeef-ee494317cd15" />
 # Google Trends Data Cleaning with PostgreSQL
 
 ## Project Overview
@@ -59,8 +60,7 @@ Each table contains:
 ## Step 1 — Explore the Original Dataset
 
 The original data contained text dates, inconsistent formatting, and values that required cleaning before analysis.
-
-![Original Dataset](Screenshot%202026-07-28%20124957.png)
+<img width="1212" height="137" alt="Screenshot 2026-07-28 124957" src="https://github.com/user-attachments/assets/44462cf9-c2ea-4bde-82e4-932928517626" />
 
 ---
 
